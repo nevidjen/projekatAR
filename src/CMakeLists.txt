@@ -1,0 +1,16 @@
+set(SOURCES
+   ${SOURCES}
+   ${CMAKE_CURRENT_LIST_DIR}/valuation.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/base_formula.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/atomic_formula.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/constant.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/unary_connective.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/not.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/binary_connective.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/and.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/or.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/iff.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/imp.cpp
+   ${CMAKE_CURRENT_LIST_DIR}/atom.cpp
+   PARENT_SCOPE
+)
